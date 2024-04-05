@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/der-fruhling/packmaker")
+        }
+    }
+}
+
+rootProject.name = 'packmaker-template-groovy'
